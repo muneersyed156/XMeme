@@ -93,4 +93,7 @@ Steps To deploy the application:
 | /memes/<int:d>|    GET      |{"url":"image_url of that id",|Data of that particular id|
 |               |             |  "caption":"meme_caption",   |is sent from db           |
 |               |             |  "id":"id of meme",          |                          |
-|               |             |   "time":"time_meme_created" |                          |
+|               |             |  "time":"time_meme_created"} |                          |
+
+11. Application currently live at https://www.bestxmeme.live
+
