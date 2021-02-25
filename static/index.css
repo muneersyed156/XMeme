@@ -1,0 +1,79 @@
+
+/* This applies for the whole html page */
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* This style is applied only for the systemtitle invoked div */
+.systemtitle{
+    margin:auto;
+    margin-top:2vh;
+    width:60vw;
+}
+
+/* This style is applied to Meme-form of the html page */
+.Meme-form{
+    width: 80%;
+    height: 50%;
+    /*background-color: aqua;*/
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* This style is applied to warning texts in the form */
+.check{
+    color:red;
+    display: none;
+    /* display: block; */
+}
+
+/* This block of style is applied to Meme-feed part of html page */
+.Meme-feed{
+    overflow:scroll;
+    height:60vh;
+    margin:auto;
+    width: 20rem;
+    overflow-x: hidden;
+    /* background-color: black; */
+    border-radius: 10px;
+}
+
+/* This block of style is applied to every Meme card */
+.card{
+    margin:auto;
+    margin-top:3rem;
+}
+
+/* This functionality provides a feature like when you hover the MemeCard will be highlighted */
+.card:hover{
+    border:1px solid blue;
+    opacity: 0.9;
+}
+
+/* Provide style for input type */
+input[type = text],input[type=url]{
+    padding: 10px 15px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ }
+
+ /*For future purpose */
+button{
+    
+}
+/* When we hover on a button we get a pointer symbol */
+button:hover{
+    cursor: pointer;
+}
+
+/* This block of style is applied for time when the meme is created */
+.memetime{
+    color: greenyellow;
+    margin-left: 1vw;
+    /* margin-left: 7vw; */
+}
+
